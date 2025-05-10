@@ -8,21 +8,21 @@
     <meta name="author" content="Transport Geo">
     <meta name="description" content="Профессиональные грузчики в Тбилиси. Быстрая погрузка, выгрузка и доставка мебели и техники. Надежно, недорого, ежедневно. Закажите прямо сейчас!">
     <meta name="keywords" content="грузчики Тбилиси, услуги грузчиков, перевозка мебели, переезд в Тбилиси, Transport Geo">
-    
+
     <!-- Page Title -->
-    <title>Грузчики в Тбилиси | Надежные услуги грузчиков от Transport Geo</title>
-    
+    <title>Грузчики в Тбилиси | Недорогие услуги грузчиков</title>
+
     <!-- Favicon Icon -->
     <link rel="icon" href="img/favicon.png">
-    
+
     <!-- Google Fonts & CSS -->
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom.css">
-    
+
     <!-- Modernizr -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    
+
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
@@ -32,8 +32,7 @@
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "ул. Руставели, 10",
-        "addressLocality": "Тбилиси",
-        "addressCountry": "Грузия"
+        "addressLocality": "Тбилиси"
       },
       "telephone": "+995 558 24 2910",
       "email": "ssoltseva99@gmail.com",
@@ -45,6 +44,72 @@
       "description": "Профессиональные грузчики в Тбилиси. Погрузка, выгрузка, переезды, крупногабаритные грузы."
     }
     </script>
+
+    <style>
+        /* Адаптивные медиазапросы */
+        @media screen and (max-width: 768px) {
+            .portfolio-item {
+                width: 100%;
+            }
+
+            .testimonial blockquote p {
+                font-size: 16px;
+                padding: 15px;
+            }
+
+            .section-header h2 {
+                font-size: 24px;
+            }
+
+            .portfolio-filter ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .hero-btn-wrap {
+                margin-top: 30px;
+            }
+
+            .hero-btn {
+                padding: 10px 20px;
+                font-size: 15px;
+            }
+
+            .team-member {
+                width: 100%;
+            }
+
+            .single-service {
+                padding-left: 20px;
+            }
+
+            .single-service i {
+                left: 0;
+                top: 0;
+                font-size: 24px;
+            }
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            .portfolio-item {
+                width: 50%;
+            }
+
+            .team-member {
+                width: 50%;
+            }
+        }
+
+        @media screen and (min-width: 1025px) {
+            .portfolio-item {
+                width: 33.33%;
+            }
+
+            .team-member {
+                width: 25%;
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -70,7 +135,7 @@
                 <li class="menu-item"><a href="#price">Цены</a></li>
                 <li class="menu-item"><a href="#blog">Блог</a></li>
                 <li class="menu-item"><a href="#contact">Контакты</a></li>
-                <li class="menu-item"><a href="uslugi-gruzchikov-tbilisi.html">Услуги грузчиков</a></li> <!-- Новая страница в меню -->
+                <li class="menu-item"><a href="uslugi-gruzchikov-tbilisi.html">Услуги грузчиков</a></li>
             </ul>
         </nav>
     </div><!-- .header-wrap -->
@@ -201,7 +266,7 @@
                 <div class="single-service">
                     <i class="icofont icofont-people"></i>
                     <h3>УСЛУГИ ГРУЗЧИКОВ</h3>
-                    <p>Наши опытные грузчики в Тбилиси аккуратно и оперативно выполнят погрузку и разгрузку вашего груза. Мы применяем профессиональные методики и качественные упаковочные материалы.</p>
+                    <p>Наши опытные грузчики в Тбилиси аккуратно и оперативно выполнят погрузку и разгрузку вашего груза. Мы применяем профессиональные методики и качественные материалы для защиты ваших вещей.</p>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -237,51 +302,50 @@
 </section>
 <!-- End Service Section -->
 
-<!-- Start Portfolio Section -->
-<section class="portfolio-wrap section">
-    <div class="section-header text-center">
-        <h2 class="white-3d">ПРИМЕРЫ РАБОТ</h2>
-        <span class="section-separator"></span>
-    </div>
-    <div class="portfolio-filter text-center">
-        <ul>
-            <li class="active"><a href="#" data-filter="*">ВСЕ</a></li>
-            <li><a href="#" data-filter=".item-1">ПЕРЕЕЗДЫ</a></li>
-            <li><a href="#" data-filter=".item-2">ДОСТАВКА ГРУЗОВ</a></li>
-            <li><a href="#" data-filter=".item-3">КРУПНОГАБАРИТНЫЕ ГРУЗЫ</a></li>
-        </ul>
-    </div>
-    <div class="portfolio gutter-less zoom-gallery">
-        <div class="grid-sizer"></div>
-        <!-- Проект 1 -->
-        <div class="portfolio-item item-1">
-            <a href="img/port-01.jpg" class="item-inner">
-                <img src="img/port-01.jpg" alt="Переезд офиса IT-компании в Тбилиси">
-                <div class="hover-text">
-                    <h3 class="white-3d">Переезд офиса</h3>
-                    <h4 class="white-3d">IT-компания "Tech Solutions"</h4>
-                </div>
-            </a>
+<!-- Portfolio Section -->
+<section class="portfolio-wrap section" id="work">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="white-3d">ПРИМЕРЫ РАБОТ</h2>
+            <span class="section-separator"></span>
         </div>
-        <!-- Проект 2 -->
-        <div class="portfolio-item item-2">
-            <a href="img/port-02.jpg" class="item-inner">
-                <img src="img/port-02.jpg" alt="Доставка бытовой техники в Тбилиси">
-                <div class="hover-text">
-                    <h3 class="white-3d">Доставка бытовой техники</h3>
-                    <h4 class="white-3d">Клиент: Бар "Борщ"</h4>
-                </div>
-            </a>
+        <div class="portfolio-filter text-center">
+            <ul>
+                <li class="active"><a href="#" data-filter="*">ВСЕ</a></li>
+                <li><a href="#" data-filter=".item-1">ПЕРЕЕЗДЫ</a></li>
+                <li><a href="#" data-filter=".item-2">ДОСТАВКА ГРУЗОВ</a></li>
+                <li><a href="#" data-filter=".item-3">КРУПНОГАБАРИТНЫЕ ГРУЗЫ</a></li>
+            </ul>
         </div>
-        <!-- Проект 3 -->
-        <div class="portfolio-item item-3">
-            <a href="img/port-03.jpg" class="item-inner">
-                <img src="img/port-03.jpg" alt="Доставка мебели в Тбилиси">
-                <div class="hover-text">
-                    <h3 class="white-3d">Доставка мебели</h3>
-                    <h4 class="white-3d">Проект: "Коворкинг на Руставели"</h4>
-                </div>
-            </a>
+        <div class="portfolio gutter-less zoom-gallery">
+            <div class="grid-sizer"></div>
+            <div class="portfolio-item item-1">
+                <a href="img/port-01.jpg" class="item-inner">
+                    <img src="img/port-01.jpg" alt="Переезд офиса IT-компании в Тбилиси" loading="lazy">
+                    <div class="hover-text">
+                        <h3 class="white-3d">Переезд офиса</h3>
+                        <h4 class="white-3d">IT-компания "Tech Solutions"</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-item item-2">
+                <a href="img/port-02.jpg" class="item-inner">
+                    <img src="img/port-02.jpg" alt="Доставка бытовой техники в Тбилиси" loading="lazy">
+                    <div class="hover-text">
+                        <h3 class="white-3d">Доставка бытовой техники</h3>
+                        <h4 class="white-3d">Клиент: Бар "Борщ"</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-item item-3">
+                <a href="img/port-03.jpg" class="item-inner">
+                    <img src="img/port-03.jpg" alt="Доставка мебели в Тбилиси" loading="lazy">
+                    <div class="hover-text">
+                        <h3 class="white-3d">Доставка мебели</h3>
+                        <h4 class="white-3d">Проект: "Коворкинг на Руставели"</h4>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>
@@ -400,7 +464,7 @@
                         </div>
                     </header>
                     <div class="entry-content">
-                        <p>Переезд — всегда стресс. Чтобы облегчить этот процесс, мы подготовили несколько полезных советов...</p>
+                        <p>Переезд — всегда стресс. Чтобы сделать процесс максимально комфортным, мы подготовили несколько полезных советов...</p>
                         <a href="blog-details-1.html" class="t-btn t-btn-ex-small read-more-btn" target="_blank">Читать далее</a>
                     </div>
                 </article>
@@ -520,5 +584,6 @@
 <script src="js/vendor/jquery-3.2.0.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+
 </body>
 </html>
