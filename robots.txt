@@ -6,6 +6,6 @@ Disallow: /cgi-bin/
 Disallow: /temp/
 Disallow: /private/
 
-Sitemap: https://transportgeo.ge/sitemap.xml 
+Sitemap: https://gruzoperevozki-tbilisi.github.io/sitemap.xml 
 
 Crawl-delay: 10
