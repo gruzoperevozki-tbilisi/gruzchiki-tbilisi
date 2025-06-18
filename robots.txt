@@ -1,11 +1,4 @@
 User-agent: *
-Disallow: /admin/
-Disallow: /wp-admin/
-Disallow: /wp-content/
-Disallow: /cgi-bin/
-Disallow: /temp/
-Disallow: /private/
+Disallow:
 
-Sitemap: https://gruzoperevozki-tbilisi.github.io/sitemap.xml 
-
-Crawl-delay: 10
+Sitemap: https://gruzoperevozki-tbilisi.github.io/gruzchiki/sitemap.xml 
